@@ -325,3 +325,92 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+.contact-section {
+  position: absolute;
+  width: 1280px;
+  height: 846px;
+  left: 0;
+  top: 2083px;
+  background: #6070ff;
+  padding: 100px 200px 0 200px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  background-image: url('../media/png/bg-image.png');
+  background-size: contain;
+  border-radius: 30% 0 0 0;
+}
+
+.contact-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20% 0 20%;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  position: static;
+  width: 447px;
+  height: 395px;
+  left: 177px;
+  top: 182px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.contact-info > h4 {
+  font-family: "Poppins", "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  margin: 12px 0;
+}
+
+.contact-info > p {
+  font-family: "Poppins", "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.group {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 2px;
+  height: 50px;
+  width: 447px;
+  padding-left: 15px;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.text-group {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 2px;
+  height: 170px;
+  width: 447px;
+  padding-left: 15px;
+  line-height: 20px;
+  font-family: "Poppins", "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #b3bac5;
+}
