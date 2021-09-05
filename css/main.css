@@ -326,8 +326,6 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
-/* contact form styles */
-
 .contact-section {
   position: absolute;
   width: 1280px;
@@ -390,15 +388,6 @@ li {
   margin: 12px 0;
 }
 
-/* input {
-  bottom: 0px;
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
-  border-radius: 2px;
-  height: 50px;
-  width: 447px;
- } */
-
 .group {
   background: #fff;
   border: 1px solid #cfd8dc;
@@ -418,9 +407,6 @@ li {
   width: 447px;
   padding-left: 15px;
   line-height: 20px;
-
-  /* Input /Normal */
-
   font-family: "Poppins", "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
