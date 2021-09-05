@@ -331,12 +331,13 @@ li {
   width: 1280px;
   height: 846px;
   left: 0;
-  top: 2050px;
+  top: 2083px;
   background: #6070ff;
   padding: 100px 200px 0 200px;
   transform: matrix(1, 0, 0, 1, 0, 0);
   background-image: url('../media/png/bg-image.png');
   background-size: contain;
+  border-radius: 30% 0 0 0;
 }
 
 .contact-info-wrapper {
